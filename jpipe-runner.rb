@@ -10,6 +10,7 @@ class JpipeRunner < Formula
     sha256 "38136a9527b930edc56867c20a17c92ae9e99e97d03eed57669fb58fe9bb2013"
 
     depends_on "python@3.10"
+    depends_on "python-tk@3.10"
 
     def install
         venv = virtualenv_create(libexec, "python3.10")
