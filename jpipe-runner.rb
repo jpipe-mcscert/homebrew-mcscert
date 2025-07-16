@@ -16,8 +16,14 @@ class JpipeRunner < Formula
     virtualenv_install_with_resources
   end
 
-  test do
+  def post_install
+    ohai "Verifying installation..."
     system bin/"jpipe-runner", "--help"
+    ohai "should be working"
+  rescue
+    odie "will not work. have you updated python deps? RTFM."
   end
+
+
 
 end
