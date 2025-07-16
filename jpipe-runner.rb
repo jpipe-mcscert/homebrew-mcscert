@@ -13,9 +13,11 @@ class JpipeRunner < Formula
   depends_on "freetype"
 
   def install
-    venv = virtualenv_create(libexec, "python3.12")
-    venv.pip_install resources
-    venv.pip_install_and_link buildpath
+    virtualenv_install_with_resources
+  end
+
+  test do
+    system bin/"jpipe-runner", "--help"
   end
 
 end
