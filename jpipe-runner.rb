@@ -13,6 +13,7 @@ class JpipeRunner < Formula
   depends_on "freetype"
 
   def install
+    ENV["SOURCE_DATE_EPOCH"] = Time.now.to_i.to_s
     virtualenv_install_with_resources
   end
 
