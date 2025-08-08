@@ -4,8 +4,8 @@ class JpipeRunnerAT < Formula
     include Language::Python::Virtualenv
 
     homepage "https://github.com/jpipe-mcscert/jpipe-runner"
-    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download//jpipe_runner-2.0.0b25.tar.gz"
-    sha256 "410f4c9f3fbd45650fd4f8a722453c7d96ae1272fdf194ef95a2955935c05716"
+    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download//jpipe_runner-2.0.0b26.tar.gz"
+    sha256 "1c5bfdae3b1d4306023acf4fad8d7d69f1a9a70417ea1a0f26793058fc3f9db9"
 
     depends_on "python@3.11"
     depends_on "libjpeg-turbo"
