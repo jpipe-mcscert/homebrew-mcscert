@@ -5,7 +5,7 @@ class JpipeAT200 < Formula
     homepage "https://github.com/jpipe-mcscert/jpipe-compiler"
 
     url "https://github.com/jpipe-mcscert/jpipe-compiler/releases/download/v2.0.0/jpipe-2.0.0.tar.gz"
-    sha256 "c0051e4b9ac020e40982d9189fdbd7177a542b61645c808e9eff1bd8604c19cf"
+    sha256 "40e69a3f1bcef28c4e7cb040da75d32a37978491690381f13eced1fed7762bc4"
 
     depends_on "graphviz"
     depends_on "openjdk@25"
