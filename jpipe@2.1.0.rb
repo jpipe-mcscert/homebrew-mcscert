@@ -1,6 +1,6 @@
 require "formula"
 
-class Jpipe < Formula
+class JpipeAT210 < Formula
 
     homepage "https://github.com/jpipe-mcscert/jpipe-compiler"
 
