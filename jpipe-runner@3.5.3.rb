@@ -1,6 +1,6 @@
 require "formula"
 
-class JpipeRunner < Formula
+class JpipeRunnerAT353 < Formula
     include Language::Python::Virtualenv
 
     homepage "https://github.com/jpipe-mcscert/jpipe-runner"
