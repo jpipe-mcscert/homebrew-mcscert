@@ -4,22 +4,16 @@ class JpipeRunner < Formula
     include Language::Python::Virtualenv
 
     homepage "https://github.com/jpipe-mcscert/jpipe-runner"
-    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v3.6.0/jpipe_runner-3.6.0.tar.gz"
-    sha256 "a799b82ac183cd3d41bb712eeaeb5ef4c4f23c6953654199878e1825474f03cd"
+    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.0.0/jpipe_runner-4.0.0.tar.gz"
+    sha256 "5c9394b95528c606dd0447f5e380a95731b1a99ca2fe83d04ee3819259041da5"
 
     depends_on "python@3.11"
     depends_on "rust" => :build
-    depends_on "libjpeg-turbo"
-    depends_on "freetype"
     depends_on "graphviz"
 
       resource "attrs" do
     url "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz"
     sha256 "d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32"
-  end
-  resource "graphviz" do
-    url "https://files.pythonhosted.org/packages/f8/b3/3ac91e9be6b761a4b30d66ff165e54439dcd48b83f4e20d644867215f6ca/graphviz-0.21.tar.gz"
-    sha256 "20743e7183be82aaaa8ad6c93f8893c923bd6658a04c32ee115edb3c8a835f78"
   end
   resource "jsonschema-specifications" do
     url "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz"
@@ -32,10 +26,6 @@ class JpipeRunner < Formula
   resource "networkx" do
     url "https://files.pythonhosted.org/packages/6c/4f/ccdb8ad3a38e583f214547fd2f7ff1fc160c43a75af88e6aec213404b96a/networkx-3.5.tar.gz"
     sha256 "d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037"
-  end
-  resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz"
-    sha256 "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
   end
   resource "referencing" do
     url "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz"
