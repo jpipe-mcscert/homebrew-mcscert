@@ -4,8 +4,8 @@ class Jpipe < Formula
 
     homepage "https://github.com/jpipe-mcscert/jpipe-compiler"
 
-    url "https://github.com/jpipe-mcscert/jpipe-compiler/releases/download/v2.5.0/jpipe-2.5.0.tar.gz"
-    sha256 "6f98a92c069ce7bb29cdd634be94361b85ff9257dddcd60012f3841ec4c80f92"
+    url "https://github.com/jpipe-mcscert/jpipe-compiler/releases/download/v3.0.0/jpipe-3.0.0.tar.gz"
+    sha256 "0c0e977f58be507c01e43e10c0fc38dfdd0331534e94e4c3738a94b64693188d"
 
     depends_on "graphviz"
     depends_on "openjdk@25"
