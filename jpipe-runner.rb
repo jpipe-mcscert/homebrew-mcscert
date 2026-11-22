@@ -4,8 +4,8 @@ class JpipeRunner < Formula
     include Language::Python::Virtualenv
 
     homepage "https://github.com/jpipe-mcscert/jpipe-runner"
-    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.0.0/jpipe_runner-4.0.0.tar.gz"
-    sha256 "5c9394b95528c606dd0447f5e380a95731b1a99ca2fe83d04ee3819259041da5"
+    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.1.0/jpipe_runner-4.1.0.tar.gz"
+    sha256 "70e51aa655e2fab60dc035bbb738cd577488c960b70d606a66c5024dd366aac7"
 
     depends_on "python@3.11"
     depends_on "rust" => :build
@@ -24,8 +24,8 @@ class JpipeRunner < Formula
     sha256 "0c26707e2efad8aa1bfc5b7ce170f3fccc2e4918ff85989ba9ffa9facb2be326"
   end
   resource "networkx" do
-    url "https://files.pythonhosted.org/packages/6c/4f/ccdb8ad3a38e583f214547fd2f7ff1fc160c43a75af88e6aec213404b96a/networkx-3.5.tar.gz"
-    sha256 "d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037"
+    url "https://files.pythonhosted.org/packages/e8/fc/7b6fd4d22c8c4dc5704430140d8b3f520531d4fe7328b8f8d03f5a7950e8/networkx-3.6.tar.gz"
+    sha256 "285276002ad1f7f7da0f7b42f004bcba70d381e936559166363707fdad3d72ad"
   end
   resource "referencing" do
     url "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz"
