@@ -4,8 +4,8 @@ class JpipeRunner < Formula
     include Language::Python::Virtualenv
 
     homepage "https://github.com/jpipe-mcscert/jpipe-runner"
-    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.2.0/jpipe_runner-4.2.0.tar.gz"
-    sha256 "5d08a2a6575728ed9ddf2e840f77c535a31fa271bdd8f55ff86f7f8042c38450"
+    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.3.0/jpipe_runner-4.3.0.tar.gz"
+    sha256 "9516dbe05785e2995b16739b8e444ad151e29c4f6ca310b7d49c12913b942a69"
 
     depends_on "python@3.11"
     depends_on "rust" => :build
@@ -32,8 +32,8 @@ class JpipeRunner < Formula
     sha256 "44aefc3142c5b842538163acb373e24cce6632bd54bdb01b21ad5863489f50d8"
   end
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/20/af/3f2f423103f1113b36230496629986e0ef7e199d2aa8392452b484b38ced/rpds_py-0.30.0.tar.gz"
-    sha256 "dd8ff7cf90014af0c0f787eea34794ebf6415242ee1d6fa91eaba725cc441e84"
+    url "https://files.pythonhosted.org/packages/42/68/3bd46b8a5e01d3c2ebdf9c5e9497912e3fe0cde02bac21a7130ca866e403/rpds_py-2026.9.1.tar.gz"
+    sha256 "4793ef7f78268b124b73fa933440f01d258bbae01de9fa53e9080c9ab0425a12"
   end
   resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
