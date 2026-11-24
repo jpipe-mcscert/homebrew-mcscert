@@ -4,8 +4,8 @@ class JpipeRunner < Formula
     include Language::Python::Virtualenv
 
     homepage "https://github.com/jpipe-mcscert/jpipe-runner"
-    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.4.0/jpipe_runner-4.4.0.tar.gz"
-    sha256 "2bb27ef239d272cbfa80d1a0bac02e4c10ecebd40c9a03a272eb0626a78c7e4a"
+    url "https://github.com/jpipe-mcscert/jpipe-runner/releases/download/v4.5.0/jpipe_runner-4.5.0.tar.gz"
+    sha256 "25d38ef8f8137857e6761c9a0187bb78e8e5dbabf67d42798f4f26f2e1c0780a"
 
     depends_on "python@3.11"
     depends_on "rust" => :build
